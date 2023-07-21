@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "941958989879",
+    "project_id": "fireapp-e52c3",
+    "storage_bucket": "fireapp-e52c3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941958989879:android:230e0b4fb6462236cc97b2",
+        "android_client_info": {
+          "package_name": "com.professorangoti.fireapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "941958989879-ko3hhprf43sd8t4ku9htoejhsiuqqkg8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.professorangoti.fireapp",
+            "certificate_hash": "f8add08a85802f6ee3ccadf306f5bb3f0a9b212e"
+          }
+        },
+        {
+          "client_id": "941958989879-31n65cgn19brq0tgr5tfume35rf9drhs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwj5QE1lzfYMa4kY1VZXPU6TlMyql09QA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "941958989879-0geri4034lnjdabm82foit9qre337fnn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
