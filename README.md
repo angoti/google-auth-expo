@@ -4,12 +4,13 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/angoti/google-auth-expo?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/angoti/google-auth-expo?style=for-the-badge)
 
-<img src="docs/images/Google-Firebase-SignIn1.png" alt="Tela 1">
-<img src="docs/images/Google-Firebase-SignIn2.png" alt="Tela 2">
-<img src="docs/images/Google-Firebase-SignIn3.png" alt="Tela 3">
-<img src="docs/images/Google-Firebase-SignIn4.png" alt="Tela 4">
-<img src="docs/images/Google-Firebase-SignIn5.png" alt="Tela 5">
-
+<div style="display:flex">
+<img src="docs/images/Google-Firebase-SignIn1.png" alt="Tela 1" style="flex:3; display: inline-block;">
+<img src="docs/images/Google-Firebase-SignIn2.png" alt="Tela 2" style="flex:1; display: inline-block;">
+<img src="docs/images/Google-Firebase-SignIn3.png" alt="Tela 3" style="flex:1; display: inline-block;">
+<img src="docs/images/Google-Firebase-SignIn4.png" alt="Tela 4" style="flex:1; display: inline-block;">
+<img src="docs/images/Google-Firebase-SignIn5.png" alt="Tela 5" style="flex:1; display: inline-block;">
+</div>
 > Linha adicional de texto informativo sobre o que o projeto faz. Sua introdução deve ter cerca de 2 ou 3 linhas. Não exagere, as pessoas não vão ler.
 
 ### Ajustes e melhorias
@@ -26,20 +27,22 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
-* Você instalou a versão mais recente de `<linguagem / dependência / requeridos>`
-* Você tem uma máquina `<Windows / Linux / Mac>`. Indique qual sistema operacional é compatível / não compatível.
-* Você leu `<guia / link / documentação_relacionada_ao_projeto>`.
+- Você instalou a versão mais recente de `<linguagem / dependência / requeridos>`
+- Você tem uma máquina `<Windows / Linux / Mac>`. Indique qual sistema operacional é compatível / não compatível.
+- Você leu `<guia / link / documentação_relacionada_ao_projeto>`.
 
 ## 🚀 Instalando <nome_do_projeto>
 
 Para instalar o <nome_do_projeto>, siga estas etapas:
 
 Linux e macOS:
+
 ```
 <comando_de_instalação>
 ```
 
 Windows:
+
 ```
 <comando_de_instalação>
 ```
