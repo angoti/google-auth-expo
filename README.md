@@ -4,7 +4,11 @@
 ![GitHub language count](https://img.shields.io/github/languages/count/angoti/google-auth-expo?style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/angoti/google-auth-expo?style=for-the-badge)
 
-<img src="imagem.png" alt="Exemplo imagem">
+<img src="docs/images/Google-Firebase-SignIn1.png" alt="Tela 1">
+<img src="docs/images/Google-Firebase-SignIn2.png" alt="Tela 2">
+<img src="docs/images/Google-Firebase-SignIn3.png" alt="Tela 3">
+<img src="docs/images/Google-Firebase-SignIn4.png" alt="Tela 4">
+<img src="docs/images/Google-Firebase-SignIn5.png" alt="Tela 5">
 
 > Linha adicional de texto informativo sobre o que o projeto faz. Sua introdução deve ter cerca de 2 ou 3 linhas. Não exagere, as pessoas não vão ler.
 
