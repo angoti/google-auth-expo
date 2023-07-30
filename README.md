@@ -51,7 +51,14 @@ Siga rigorosamente as instruções
 
 <code>npx react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/</code>
 
-4. Execute a sequência de comandos
+4. Execute a sequência de comandos para gerar o apk
  
 <code>cd android
 gradlew assembleRelease</code>
+
+o arquivo gerado fica em: <code>android/app/build/outputs/apk/app-release.apk</code>
+Caso aconteça erro, execute os seguintes comnandos e repita o passo 4.
+
+<code>rm -rf ./android/app/src/main/res/drawable-*</code>
+
+<code>rm -rf ./android/app/src/main/res/raw</code>
