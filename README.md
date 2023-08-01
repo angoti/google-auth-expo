@@ -47,11 +47,13 @@ Siga rigorosamente as instruções
   }
 }</code>
 
-3. Execute o comando na raiz do projeto
+3. Verifique se existe uma pasta com o nome <i><b>assets</b></i> dentro de <i><b>android/app/src/main</b></i>. Se não existir, crie a pasta <i><b>assets</b></i>
+
+4. Execute o comando na raiz do projeto
 
 <code>npx react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/</code>
 
-4. Execute a sequência de comandos para gerar o apk
+5. Execute a sequência de comandos para gerar o apk
  
 <code>cd android
 gradlew assembleRelease</code>
