@@ -17,19 +17,19 @@ App demonstrativo de uso da autenticação Firebase/Google usando Expo react nat
 ## 💻 Instruções para executar o app 
 
 Siga rigorosamente as instruções
-1. Execute o comandon: <code>npx expo prebuild --clean</code>
+1. Execute o comandon: <pre>npx expo prebuild --clean</pre>
 2. React Native Firebase [Android setup](https://rnfirebase.io/#2-android-setup)
 3. React Native Firebase integração com Expo [managed workflow](https://rnfirebase.io/#managed-workflow).
-4. Para executar: <code>npx expo run:android</code> [Development build](https://docs.expo.dev/develop/development-builds/development-workflows/#build-locally-with-android-studio-and-xcode)
+4. Para executar: <pre>npx expo run:android</pre> [Development build](https://docs.expo.dev/develop/development-builds/development-workflows/#build-locally-with-android-studio-and-xcode)
 
 ## 🚀 Instruções para construir o apk
 1. Criar o arquivo keystore na pasta android/app
 
-<code>keytool -genkey -v -keystore app.keystore -alias your_key_alias -keyalg RSA -keysize 2048 -validity 10000</code>
+<pre>keytool -genkey -v -keystore app.keystore -alias your_key_alias -keyalg RSA -keysize 2048 -validity 10000</pre>
 
 2. Editar o arquivo <i>android\app\build.gradle</i>
 
-<code>android {
+<pre>android {
 ....
   signingConfigs {
     release {
@@ -45,22 +45,22 @@ Siga rigorosamente as instruções
       signingConfig signingConfigs.release
     }
   }
-}</code>
+}</pre>
 
 3. Verifique se existe uma pasta com o nome <i><b>assets</b></i> dentro de <i><b>android/app/src/main</b></i>. Se não existir, crie a pasta <i><b>assets</b></i>
 
 4. Execute o comando na raiz do projeto
 
-<code>npx react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/</code>
+<pre>npx react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/</pre>
 
 5. Execute a sequência de comandos para gerar o apk
  
-<code>cd android
-gradlew assembleRelease</code>
+<pre>cd android
+gradlew assembleRelease</pre>
 
-o arquivo gerado fica em: <code>android/app/build/outputs/apk/app-release.apk</code>
+o arquivo gerado fica em: <pre>android/app/build/outputs/apk/app-release.apk</pre>
 Caso aconteça erro, execute os seguintes comnandos e repita o passo 4.
 
-<code>rm -rf ./android/app/src/main/res/drawable-*</code>
+<pre>rm -rf ./android/app/src/main/res/drawable-*</pre>
 
-<code>rm -rf ./android/app/src/main/res/raw</code>
+<pre>rm -rf ./android/app/src/main/res/raw</pre>
