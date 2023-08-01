@@ -17,7 +17,7 @@ App demonstrativo de uso da autenticação Firebase/Google usando Expo react nat
 ## 💻 Instruções para executar o app 
 
 Siga rigorosamente as instruções
-1. Execute o comandon: <pre>npx expo prebuild --clean</pre>
+1. Execute o comando: <pre>npx expo prebuild --clean</pre>
 2. React Native Firebase [Android setup](https://rnfirebase.io/#2-android-setup)
 3. React Native Firebase integração com Expo [managed workflow](https://rnfirebase.io/#managed-workflow).
 4. Para executar: <pre>npx expo run:android</pre> [Development build](https://docs.expo.dev/develop/development-builds/development-workflows/#build-locally-with-android-studio-and-xcode)
