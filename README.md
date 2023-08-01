@@ -17,10 +17,19 @@ App demonstrativo de uso da autenticação Firebase/Google usando Expo react nat
 ## 💻 Instruções para executar o app 
 
 Siga rigorosamente as instruções
-1. Execute o comando: <pre>npx expo prebuild --clean</pre>
-2. React Native Firebase [Android setup](https://rnfirebase.io/#2-android-setup)
-3. React Native Firebase integração com Expo [managed workflow](https://rnfirebase.io/#managed-workflow).
-4. Para executar: <pre>npx expo run:android</pre> [Development build](https://docs.expo.dev/develop/development-builds/development-workflows/#build-locally-with-android-studio-and-xcode)
+1. Execute os comandos na raiz do projeto:
+   <pre>
+     npm install
+     npx expo prebuild --clean
+   </pre>
+2. Siga as instruções até o fim da página: [Android setup](https://rnfirebase.io/#2-android-setup)
+3.1 Para executar no emulador: <pre>npx expo run:android</pre>
+3.2 Para executar no dispositivo conectado por cabo usb: <pre>npx expo run:android</pre>
+
+Referencias:<br>
+[Development build](https://docs.expo.dev/develop/development-builds/development-workflows/#build-locally-with-android-studio-and-xcode)<br>
+[Android setup](https://rnfirebase.io/#2-android-setup)<br>
+[React Native Google Signin](https://github.com/react-native-google-signin/google-signin)
 
 ## 🚀 Instruções para construir o apk
 1. Criar o arquivo keystore na pasta android/app
