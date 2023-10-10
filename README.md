@@ -66,7 +66,7 @@ Referencias:<br>
 gradlew assembleRelease</pre>
 
 o arquivo gerado fica em: <pre>android/app/build/outputs/apk/release/app-release.apk</pre>
-Caso aconteça erro, execute os seguintes comnandos e repita o passo 4.
+Caso aconteça erro, execute os seguintes comandos e repita os passos 4 e 5:
 
 <pre>rm -rf ./android/app/src/main/res/drawable-*</pre>
 
